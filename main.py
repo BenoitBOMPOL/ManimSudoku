@@ -2,7 +2,7 @@
     Main function
 """
 from manim import *
-from structs.sudoku import Sudoku
+from sudoku import Sudoku
 
 GRID : list[list[int]] = [\
     [int(s) for s in "001000700"],
